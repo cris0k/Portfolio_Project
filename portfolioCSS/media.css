@@ -36,7 +36,12 @@
         padding: 10px;
         background-color: var(--details-white);
         color: var(--details-dark);
-        font-weight: 400;
+        font-weight: 600;
+    }
+    .navigation:hover{
+        background-color: var(--details-light-blue);
+        transition: background-color .3s linear;
+
     }
     .carousel-dot {
         width: 20px;
@@ -56,7 +61,7 @@
         justify-content: baseline;
     }    
         
-     .meeting-section {
+    .meeting-section {
         display: flex;
         flex-direction: column;
         
@@ -67,6 +72,11 @@
     
     textarea {
         width: 30rem;
+    }
+    .form-button:hover{
+        background-color: var(--details-white);
+        transition: background-color .3s linear;
+        
     }
     .about-me img {
         margin-left: 1rem;

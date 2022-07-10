@@ -90,6 +90,84 @@ h2 {
 .skills {
     margin: 1rem;
 }
+@keyframes loader {
+
+	0% {
+        width: 0;
+	}
+    10% {
+		width: 20%;
+	}
+    
+    20% {
+		width: 30%;
+	}
+    30% {
+		width: 50%;
+	}
+
+	40% {
+		width: 70%;
+	}
+    50% {
+		width: 100%;
+	}
+
+}
+.progress-bar {
+	border-radius: 60px;
+	overflow: hidden;
+    width: 50%;
+    margin: 0.5rem;
+}
+
+span {
+    display: block;
+    color: var(--details-white);
+    font-weight: 600;
+}
+
+.bar {
+  background: var(--details-white);
+}
+
+
+.progress-git {
+animation: loader 5s linear;
+  background: var(--details-purple);
+  padding: 5px;
+  width: 70%;
+}
+.progress-HTML {
+    animation: loader 5s linear;
+      background: var(--details-purple);
+      padding: 5px;
+      width: 70%;
+}
+.progress-CSS {
+    animation: loader 5s linear;
+      background: var(--details-purple);
+      padding: 5px;
+      width: 70%;
+}
+.progress-js {
+    animation: loader 5s linear;
+      background: var(--details-purple);
+      padding: 5px;
+      width: 30%;
+}
+.progress-python {
+    animation: loader 5s linear;
+      background: var(--details-purple);
+      padding: 5px;
+      width: 70%;
+}
+.progress-sql {
+    animation: loader 5s linear;
+    background: var(--details-purple);
+    padding: 5px;
+    width: 30%;
+  }
 
 .form-section div {
     margin: 1rem;
@@ -145,6 +223,7 @@ textarea {
 .about-me img {
     margin-left: 1rem;
     width: 3rem;
+    
 }
 .arrow-up  img {
     width: 3rem;
@@ -162,4 +241,5 @@ footer {
     border-radius: 50%;
     width: 30px;
     border: 1px solid var(--details-white);
+    
 }
