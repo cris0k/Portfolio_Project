@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolioCSS/reset.css">
+    <link rel="stylesheet" href="portfolioCSS/normalize.css">
+    <link rel="stylesheet" href="portfolioCSS/style.css">
+    <link rel="stylesheet" href="portfolioCSS/media.css">
+    
+    <title>Cristina's Portfolio</title>
+</head>
+
+<body class="app-body">
+    
+    <header class="main-header" id="my-header">
+        <picture class="myPhoto">
+            <source
+              media="(min-width: 1024px)"
+              srcset="allMedia/profile-photo-large.jpg 2x"
+            >
+            <source
+              media="(min-width: 728px)"
+              srcset="allMedia/profile-photo-medium.jpg 2x"
+            >
+            <img
+              srcset="allMedia/profile-photo-small.jpg"
+              alt="profile-photo"
+            >
+          </picture>
+
+        <nav>
+            <a class="app-title" id="main-title" href="#section1">
+                Cristina Kukhar</a>
+            <div class="nav-links">
+                
+                <a class="navigation" href="#skills-section">Skills</a>
+                <a class="navigation" href="#contact-form">Contact Form</a>
+                <a class="navigation" href="aboutMe.html">About me</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="projects">
+        <h2>My projects</h2>
+    <div class="carousel-container">
+        <div class="carousel-slides">
+            <div id="slide1">
+                <a href="https://github.com/cris0k/crypto_jv noopener noreferrer">
+                    
+                <img src="allMedia/github-mycrypto.jpg" alt="github-image" width="100%">
+                
+                </a>
+            </div>
+            <div id="slide2"> 
+                <a href="https://github.com/cris0k/PracticaGit noopener noreferrer">
+                
+                <img src="allMedia/github-gitproject.jpg" alt="github-gitproject" width="100%">
+                
+            </a></div>
+            <div id="slide3"> 
+                <a href="https://github.com/cris0k/crypto_jv noopener noreferrer">
+                
+                <img src="allMedia/github-portfolio.jpg" alt="github-portfolio" width="100%">
+                
+            </a></div>
+        </div>
+        <div class="carousel-links">
+            <a class="carousel-dot" href="#slide1"></a>
+            <a class="carousel-dot" href="#slide2"></a>
+            <a class="carousel-dot" href="#slide3"></a>
+        </div>
+    </div>
+    </section>
+<main class="main-content">
+    <section id="skills-section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <ul>
+                <li>Git</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>SQL</li>
+            </ul>
+        </div>
+    </section>
+            
+
+<section id="contact-form">
+        <h2> Contact Form </h2>
+    <form class="form-section" action="/register" method="post">
+        
+        <div>
+            <label for="name">Name</label>
+            <input required type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+
+        <div>
+            <label for="last-name"> Last Name</label>
+            <input required type="text" id="last-name" name="last-name" placeholder="Enter your last name">
+        </div>
+
+        <div>
+        <label for="email">Email</label>
+        <input required type="email" name="email" id="email" placeholder="example@gmail.com">
+        </div>
+
+        <div>
+            <label for="tel">Phone Number</label>
+            <input type="tel"  id="tel" placeholder="Number" pattern="[0-9]+" maxlength="9">
+        </div>
+    </form>
+</section>
+    <section>
+     <h2> How did you meet me? </h2>
+        <fieldset class="meeting-section">
+          <div class="meeting-options">
+            <div>
+                <label for="kickoff">Keep Coding Kick-Off</label>
+                <input type="radio" name="selector" id="kickoff" value="kickoff">
+            </div>
+            <div>
+
+                <label for="zoom">Zoom</label>
+                <input type="radio"name="selector" id="zoom" value="zoom">
+            </div>
+            <div>
+
+                <label for="github">Github</label>
+                <input type="radio" name="selector" id="github" value="github">
+            </div>
+        </div>  
+        <div>
+            
+                <label for="other">Other</label>
+                <input type="radio" name="selector" id="other" value="other">
+                <input type="text" name="other-imput" id="other" placeholder="If other, tell me where">
+            </div>
+            <div class="other">
+            <div>
+                <label for="githubtag">Github Account</label>
+                <input required type="text" id="githubtag" name="githubtag" value="@" pattern="^@[^\s]+">
+            </div>
+            <div>
+                <textarea name="text-area" id="text-area" placeholder="Express yourself"></textarea>
+            </div>
+        </div>
+        </div>
+                
+        </fieldset>
+        <div>
+            <input class="form-button" type="submit" value="Send">
+        </div>
+    </section>
+<h2>Get to know a little bit more</h2>
+    <section class="aboutMe-section">
+        
+       <div class="about-me">
+            <a href="aboutMe.html">
+                <img src="https://cdn.icon-icons.com/icons2/2550/PNG/512/plus_circle_icon_152558.png" alt="plus">
+            </a>
+        </div>
+        <div >
+            <a class="arrow-up" href="#my-header">
+
+                <img src="https://cdn.icon-icons.com/icons2/2550/PNG/512/arrow_circle_up_icon_152705.png" alt="arrow">
+            </a>
+        </div>
+    </section>
+        
+    
+</main>
+
+<footer>
+
+    <a class="social" href="https://github.com/cris0k noopener noreferrer">
+
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="github logo">
+    </a>
+     <a class="social" href="https://www.instagram.com/cris0k/?hl=es noopener noreferrer">
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
+    </a>
+    <a class="social" href="https://linkedin.com/in/cristina-kukhar-b1326a244 noopener noreferrer">
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="linkedin logo">
+    </a>
+</footer>
+  
+</body>
+</html>

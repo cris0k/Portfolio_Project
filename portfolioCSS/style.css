@@ -1,0 +1,165 @@
+:root {
+    font-size: 16px;
+    --main-gradient: linear-gradient(90deg, #020024 0%, #790978 35%, #00b2d6 100%);
+    --background-color:#C9E0F2;
+    --details-purple: #790978;
+    --details-dark:#294E6B;
+    --details-light-blue:#5AADED;
+    --details-white:#ffffff;
+    
+    font-family: 'Finlandica', sans-serif;
+}
+
+.app-title {
+    display: block;
+    font-size: 2rem;
+    padding: 3px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--details-white);
+    margin-left: 4rem;
+}
+
+h2 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.app-body {
+    height: 100vh;
+    background-color: var(--background-color);
+}
+
+
+.main-header {
+    background: var(--main-gradient);
+    padding: 2rem;
+    position: sticky;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header img {
+    width: 100px;
+    border-radius: 40%;
+    border: 2px solid var(--details-white);;
+}
+
+.nav-links {
+    display: none;
+}
+
+
+.carousel-links {
+    display: flex;
+    justify-content: center;
+}
+  
+.carousel-dot {
+    background-color: var(--details-purple);
+    width: 16px;
+    height: 16px;
+    display: block;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+  
+.carousel-slides > div {
+    width: 100%;
+    color: var(--details-dark);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.carousel-slides {
+    width: 100%;
+    height: 25vh;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.skills {
+    margin: 1rem;
+}
+
+.form-section div {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.meeting-section { 
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input {
+    margin: 0.5rem;
+    border-radius: 5px;
+    border-color: var(--details-purple);
+    padding: 3px;
+    width: fit-content;
+}
+
+input[type="radio"], .form-button{
+    cursor: pointer;
+}
+
+textarea {
+    width: 15rem;
+    height: 10rem;
+    border-radius: 5px;
+    border-color: var(--details-purple);
+    
+}
+
+.form-button {
+    font-weight: 400;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    background-color: var(--details-light-blue);
+    padding: 15px 20px;
+    border: none;
+    margin-left: 1rem;
+}
+
+.aboutMe-section {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.about-me img {
+    margin-left: 1rem;
+    width: 3rem;
+}
+.arrow-up  img {
+    width: 3rem;
+}
+
+footer {
+    background: var(--main-gradient);
+    padding: 1rem;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.social img {
+    border-radius: 50%;
+    width: 30px;
+    border: 1px solid var(--details-white);
+}

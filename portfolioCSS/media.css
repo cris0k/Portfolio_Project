@@ -1,0 +1,85 @@
+@media screen and (min-width: 768px){
+    h2 {
+        font-size: 2.5rem;
+    }
+    .app-body {
+        width: 90%;
+        margin:0 auto;
+        max-width: 992px;
+        font-size: 1.25rem;
+    }
+    .main-header img {
+        width: 150px;
+        border-radius: 50%;
+        border: 5px solid var(--details-white);
+    }
+    .app-title {
+        margin-left: 0;
+        font-size: 2.5rem;
+        
+    }
+
+    .main-header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-links {
+        display: flex;
+        font-size: 1rem;
+    }
+    .navigation{
+        text-decoration: none;
+        border: 2px solid var(--details-dark);
+        border-radius: 0 20% ;
+        margin: 2px;
+        padding: 10px;
+        background-color: var(--details-white);
+        color: var(--details-dark);
+        font-weight: 400;
+    }
+    .carousel-dot {
+        width: 20px;
+        height: 20px;
+    }
+    .carousel-slides {
+        height: 20rem;
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+    .form-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: baseline;
+    }    
+        
+     .meeting-section {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .meeting-options {
+        display: flex;
+    }
+    
+    textarea {
+        width: 30rem;
+    }
+    .about-me img {
+        margin-left: 1rem;
+        width: 5rem;
+    }
+    .arrow-up  img {
+        width: 5rem;
+    }
+    
+    .social img {
+        width: 3rem;
+    }
+}
+
+   
+    
