@@ -10,8 +10,8 @@
 }
 body {
     display: grid;
-    grid-column: 100vh;
-    grid-row: 20px 10px 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px auto;
     grid-template-areas: 
     "header"
     "navbar"
@@ -38,6 +38,7 @@ body {
     text-align: center;
 }
 .back{
+    grid-area: navbar;
     background: var(--background-color);
 }
 .back img {
@@ -56,7 +57,7 @@ h2 {
 }
 video {
     grid-area: video;
-    width: 100vw;
+    width: 100%;
     height: 100vw;
     
 }

@@ -1,0 +1,62 @@
+@media screen and (min-width: 768px) {
+    
+    body {
+        display: grid;
+        grid-template-columns: 10% 5% auto;
+        grid-template-rows: 200px auto;
+        grid-template-areas: 
+        "header header header header"
+        "navbar navbar navbar navbar"
+        "aside aside video video"
+        "aside aside main main"
+        "aside aside main main"
+        "footer footer footer footer";
+    }
+
+    .app-title {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+    
+    .back img {
+        width: 80px;
+    }
+    
+    details {
+        font-size: 1.5rem;
+    }
+    
+    aside .arrow-up img {
+        display: none;
+    }
+    
+    video {
+        height: 600px;
+        width: 100%;
+    }
+
+    .hobbies-photos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        transition: all .3s linear;
+        margin: 1rem;
+    }
+
+    .hobbies-photos img {
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .social img {
+        width: 50px;
+    }
+    
+
+    
+}
