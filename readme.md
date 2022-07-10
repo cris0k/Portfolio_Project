@@ -16,7 +16,7 @@ https://github.com/cris0k/Portfolio_Project/deployments/activity_log?environment
 ```
 And press `View deployment` button.
 
-If you find any issue while browsing the website, you can also check it out by\ cloning this repository with:
+If you find any issue while browsing the website, you can also check it out by cloning this repository with:
 
 ```
 git clone https://github.com/cris0k/Portfolio_Project.git
