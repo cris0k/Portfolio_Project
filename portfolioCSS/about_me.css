@@ -1,4 +1,13 @@
-
+:root {
+    font-size: 16px;
+    --main-gradient: linear-gradient(90deg, #020024 0%, #790978 35%, #00b2d6 100%);
+    --background-color:#C9E0F2;
+    --details-purple: #790978;
+    --details-dark:#294E6B;
+    --details-light-blue:#5AADED;
+    --details-white:#ffffff;
+    font-family: 'Finlandica', sans-serif;
+}
 body {
     display: grid;
     grid-column: 100vh;
@@ -14,33 +23,91 @@ body {
 
 .main-header {
     grid-area: header;
+    background: var(--main-gradient);
+    padding: 2rem;
+    position: sticky;
+    font-weight: 600;
+}
+.app-title {
+    grid-area: header;
+    font-size: 3rem;
+    padding: 3px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--details-white);
+    text-align: center;
+}
+.back{
+    background: var(--background-color);
+}
+.back img {
+    grid-area: navbar;
+    width: 50px;
+    border-radius: 50%;
+    
 }
 
-.back a {
-    grid-area: navbar;
-    text-decoration: none;
-    border: 2px solid var(--details-dark);
-    border-radius: 0 20%;
-    padding: 2px;
-    background-color: var(--details-white);
-    color: var(--details-dark);
-    font-weight: 400;
+
+h2 {
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+video {
+    grid-area: video;
+    width: 100vw;
+    height: 100vw;
+    
 }
 main {
     grid-area: main;
+    background: var(--background-color);
 }
+img {
+    width: 100vw;
+}
+figcaption {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+
+}
+
 aside {
     grid-area: aside;
+
+}
+details {
+    margin: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+p {
+    color: var(--details-purple);
+    margin: 0.5rem;
+}
+.arrow-up  img {
+    width: 3rem;
 }
 
 footer {
     grid-area: footer;
     background: var(--main-gradient);
     margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
     
 }
 .social img {
+    margin: 1rem;
     border-radius: 50%;
     width: 30px;
     border: 1px solid var(--details-white);
+    
+    
 }
