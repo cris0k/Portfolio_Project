@@ -130,43 +130,54 @@ span {
 .bar {
   background: var(--details-white);
 }
-
+.progress-react{
+    animation: loader 5s linear;
+    background: var(--details-purple);
+    padding: 5px;
+    width: 50%;
+}
 
 .progress-git {
-animation: loader 5s linear;
-  background: var(--details-purple);
-  padding: 5px;
-  width: 70%;
+    animation: loader 5s linear;
+    background: var(--details-purple);
+    padding: 5px;
+    width: 70%;
 }
 .progress-HTML {
     animation: loader 5s linear;
-      background: var(--details-purple);
-      padding: 5px;
-      width: 70%;
+    background: var(--details-purple);
+    padding: 5px;
+    width: 70%;
 }
 .progress-CSS {
     animation: loader 5s linear;
-      background: var(--details-purple);
-      padding: 5px;
-      width: 70%;
+    background: var(--details-purple);
+    padding: 5px;
+    width: 70%;
 }
 .progress-js {
     animation: loader 5s linear;
-      background: var(--details-purple);
-      padding: 5px;
-      width: 30%;
+    background: var(--details-purple);
+    padding: 5px;
+    width: 70%;
 }
 .progress-python {
     animation: loader 5s linear;
-      background: var(--details-purple);
-      padding: 5px;
-      width: 70%;
+    background: var(--details-purple);
+    padding: 5px;
+    width: 70%;
+}
+.progress-node {
+    animation: loader 5s linear;
+    background: var(--details-purple);
+    padding: 5px;
+    width: 70%;
 }
 .progress-sql {
     animation: loader 5s linear;
     background: var(--details-purple);
     padding: 5px;
-    width: 30%;
+    width: 50%;
   }
 
 .form-section div {
